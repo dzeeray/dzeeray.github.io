@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #222222;
+    font-family: Arial, sans-serif;
+}
+
+/* правело которое решает проблему флоатов чтобы следущий блок после позиционировалс как положено под ними.*/
+.clearfix:after{
+    content:'';
+    display: table;
+    width: 100%;
+    clear: both;
+
+}
+div{
+    box-sizing: border-box;
+
+}
+li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+
+header{
+    
+    background: url(img/bg-ferst.jpg) no-repeat center top /cover;
+   padding-bottom: 160px;
+
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.logo{
+    margin-top: 41px;
+    float: left;
+}
+nav{
+    float: right;
+    margin-top: 54px;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    display: block;
+   
+
+}
+.menu li:hover{
+    border-bottom: 2px solid #fed136;
+}
+.menu li{
+    float: left;
+    display: block;
+    margin-right: 41px;
+   font-size: 14px;
+}
+.title{
+    padding-top: 115px;
+    padding-bottom: 80px;
+}
+.title-first{
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+h1{
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+.button{
+    background: #fed136;
+    color: #4c4843;
+    border-radius: 3px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 33px;
+    margin-bottom: 0;
+    
+}
+.title h2{
+    font-size: 40px;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 120px;
+    font-weight: bold;
+}
+.title p{
+   
+    color: #a2a2a2;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+
+}
+.services{
+    background: #fff;
+
+}
+.services__item{
+    width: 270px;
+    float: left;
+    text-align: center;
+
+}
+.services__item h3{
+    font-size: 18px;
+    margin: 5px;
+}
+.services__item p{
+    color: #a2a2a2;
+    font-size: 14px;
+}
+.services__item:last-child{
+    float: right;
+}
+.services__item:nth-child(2){
+    margin-left: 60px;
+}
+#services{
+    padding-bottom: 120px;
+    background: #fff;
+}
+#portfolio{
+    background: #f7f7f7;
+    padding-bottom: 120px;
+}
+.works{
+    margin-top: 80px;
+}
+.works img {
+    float: left;
+}
+.works img:nth-child(2){
+    margin-left: 29px;
+
+}
+.works img:last-child{
+    float: right;
+}
+
+.container-flex{
+    padding-bottom: 90px;
+    display: flex;
+    margin-left: 25px;
+}
+.container-flex-1{
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 54px;
+}
+.text{
+    text-align: right;
+    margin-right: 38px;
+}
+
+.text h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 7px;
+}
+.text p{
+    font-size: 14px;
+    color: #a2a2a2;
+}
+.text-1{
+    
+    margin-left: 38px;
+}
+
+.text-1 h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 7px;
+}
+.text-1 p{
+    font-size: 14px;
+    color: #a2a2a2;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    color: #8e8e8e;
+    font-size: 14px;
+    margin-bottom: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
