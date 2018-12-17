@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #868686;
+}
+div, p, input, button {
+	box-sizing: border-box;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.logo{
+	padding-top: 12px;
+}
+
+
+.f11px {font-size: 11px;}
+.f12px {font-size: 12px;}
+.f13px {font-size: 13px;}
+.f14px {font-size: 14px;}
+.f15px {font-size: 15px;}
+.f16px {font-size: 16px;}
+.f17px {font-size: 17px;}
+.f18px {font-size: 18px;}
+.f19px {font-size: 19px;}
+.f20px {font-size: 20px;}
+.f21px {font-size: 21px;}
+.f22px {font-size: 22px;}
+.f23px {font-size: 23px;}
+.f24px {font-size: 24px;}
+.f25px {font-size: 25px;}
+.f26px {font-size: 26px;}
+.f27px {font-size: 27px;}
+.f28px {font-size: 28px;}
+.f29px {font-size: 29px;}
+.f30px {font-size: 30px;}
+.f31px {font-size: 31px;}
+.f32px {font-size: 32px;}
+.f33px {font-size: 33px;}
+.f34px {font-size: 34px;}
+.f35px {font-size: 35px;}
+.f36px {font-size: 36px;}
+.f37px {font-size: 37px;}
+.f38px {font-size: 38px;}
+.f39px {font-size: 39px;}
+.f40px {font-size: 40px;}
+.f41px {font-size: 41px;}
+.f42px {font-size: 42px;}
+.f43px {font-size: 43px;}
+.f44px {font-size: 44px;}
+.f45px {font-size: 45px;}
+.f46px {font-size: 46px;}
+.f47px {font-size: 47px;}
+.f48px {font-size: 48px;}
+.f49px {font-size: 49px;}
+.f50px {font-size: 50px;}
+.f51px {font-size: 51px;}
+.f52px {font-size: 52px;}
+.f53px {font-size: 53px;}
+.f54px {font-size: 54px;}
+.f55px {font-size: 55px;}
+.f56px {font-size: 56px;}
+.f57px {font-size: 57px;}
+.f58px {font-size: 58px;}
+.f59px {font-size: 59px;}
+.white{
+	color:#fff;
+}
+.upper {
+	text-transform: uppercase;
+}
+
+.aligner {
+	text-align: center;
+}
+.centro {
+	margin: 0 auto;
+}
+.bold{
+	font-weight: 700;
+}
+
+.container{
+    width: 940px;
+    
+}
+header{
+    height: 100%;;
+	background-image: url(img/header-bg.jpg);
+	background-size: cover;
+	display: flex;
+	background-blend-mode:luminosity;
+}
+.logo img {
+    vertical-align: middle;
+	border-style: none;
+	margin-right: 10px;
+}
+.logo p{
+	color: #fff;
+}
+.menu a{
+	
+    color: #868686;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;}
+.menu{
+text-align: center;
+margin-top: 60px;
+
+}
+.menu a:hover{
+	border-bottom: 4px solid #fc635e;
+	color:#fc635e;
+}
+
+.heading{
+	display: flex;
+	justify-content: space-between;
+
+}
+.title{
+	text-align: center;
+	margin-top: 210px;
+	overflow: hidden;
+}
+
+.title h1::before,.title h1::after{
+	content:'';
+	display: inline-block;
+	vertical-align:middle;
+	box-sizing: border-box;
+	width:106px;
+	height: 8px;
+	background: #868686;
+	margin: 10px;
+
+}
+
+
+span{
+	color: #fc635e;
+	
+	
+}
+.buttons{
+	display: flex;
+	justify-content: center;
+}
+.button{
+	border: 3px solid #000;
+	border-radius: 4px;
+	text-decoration: none;
+	color: #000;
+	padding: 18px 36px;
+	margin-top: 48px;
+	margin-left: -20px;
+	
+}
+.dawn{
+	position: absolute;
+	bottom: 28px;
+	border: 2px solid #000;
+	color: #000;
+	border-radius: 50%;
+	padding: 6px 9px 6px 9px;
+	text-decoration: none;
+}
+.main__title{
+	text-align: center;
+	margin-top: 67px;
+}
+.main__title h3{
+	font-size: 28px;
+	margin-bottom: 0;
+}
+.main__title p{
+	margin-top: 32px;
+}
+
+.main__card{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.expand{
+	background: url(img/business.jpg) no-repeat;
+	background-size: cover;
+	height: 576px;
+}
+.title_business{
+	text-align: center;
+	padding-top: 210px;
+}
+.obsol{
+	position: absolute;
+	margin-top: 150px;
+}
+.footer_logo{
+text-align: center;
+}
+.footer_logo p{
+	margin-top: 0;
+	padding-top: 80px;
+	
+}
+footer{
+	background: url(img/футер.jpg) no-repeat;
+	background-size: cover;
+	height: 212px;
+
+}
+.market{
+	background-color: #f2f2f2;
+	height:576px;
+	margin: 0 auto;
+}
+.what{
+	
+	
+	background-color: #fff;
+
+}
+
+
+#mac{
+	margin-top: 133px;
+	margin-bottom: 133px;
+}
+#mac p{
+	text-align: right;
+}
+#mac h3{
+	text-align: right;
+	border-right: 10px solid #fc635e;
+}
+
+#book{
+	padding-top: 133px;;
+}
+
+#book p{
+	text-align: left;
+}
+#book h3{
+	text-align: left;
+	border-left: 10px solid #fc635e;
+
+}
